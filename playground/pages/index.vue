@@ -21,11 +21,11 @@
       </ul>
     </div>
     <!-- JS Tabs -->
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <ul id="myTab" class="nav nav-tabs" role="tablist">
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link active"
           id="home-tab"
+          class="nav-link active"
           data-bs-toggle="tab"
           data-bs-target="#home-tab-pane"
           type="button"
@@ -38,8 +38,8 @@
       </li>
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link"
           id="profile-tab"
+          class="nav-link"
           data-bs-toggle="tab"
           data-bs-target="#profile-tab-pane"
           type="button"
@@ -52,8 +52,8 @@
       </li>
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link"
           id="contact-tab"
+          class="nav-link"
           data-bs-toggle="tab"
           data-bs-target="#contact-tab-pane"
           type="button"
@@ -66,8 +66,8 @@
       </li>
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link"
           id="disabled-tab"
+          class="nav-link"
           data-bs-toggle="tab"
           data-bs-target="#disabled-tab-pane"
           type="button"
@@ -80,10 +80,10 @@
         </button>
       </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
+    <div id="myTabContent" class="tab-content">
       <div
-        class="tab-pane fade show active"
         id="home-tab-pane"
+        class="tab-pane fade show active"
         role="tabpanel"
         aria-labelledby="home-tab"
         tabindex="0"
@@ -91,8 +91,8 @@
         ...
       </div>
       <div
-        class="tab-pane fade"
         id="profile-tab-pane"
+        class="tab-pane fade"
         role="tabpanel"
         aria-labelledby="profile-tab"
         tabindex="0"
@@ -100,8 +100,8 @@
         ...
       </div>
       <div
-        class="tab-pane fade"
         id="contact-tab-pane"
+        class="tab-pane fade"
         role="tabpanel"
         aria-labelledby="contact-tab"
         tabindex="0"
@@ -109,8 +109,8 @@
         ...
       </div>
       <div
-        class="tab-pane fade"
         id="disabled-tab-pane"
+        class="tab-pane fade"
         role="tabpanel"
         aria-labelledby="disabled-tab"
         tabindex="0"

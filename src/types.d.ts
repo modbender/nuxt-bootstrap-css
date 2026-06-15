@@ -1,11 +1,14 @@
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface ModuleOptions {}
 
-declare module "nuxt-bootstrap-css" {
+declare module "@nuxt/schema" {
   interface NuxtConfig {
-    bootstrap?: ModuleOptions;
+    bootstrapCSS?: ModuleOptions;
   }
 
   interface NuxtOptions {
-    bootstrap?: ModuleOptions;
+    bootstrapCSS?: ModuleOptions;
   }
 }
+
+export {};

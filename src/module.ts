@@ -12,7 +12,7 @@ export default defineNuxtModule<ModuleOptions>({
     version,
     configKey: "bootstrapCSS",
     compatibility: {
-      nuxt: "^3.0.0",
+      nuxt: ">=3.0.0",
     },
   },
   // Default configuration options of the Nuxt module

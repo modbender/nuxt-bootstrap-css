@@ -18,6 +18,7 @@ Complete Bootstrap integration, instant, no config, full CSS server side, full j
 </p>
 
 -----
+- [📚 Documentation](https://modbender.in/nuxt-bootstrap-css/)
 - [📖 Official Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [🏀 Online playground](https://stackblitz.com/github/modbender/nuxt-bootstrap-css?file=playground%2Fapp.vue)
 - [✨ Release Notes](/CHANGELOG.md)

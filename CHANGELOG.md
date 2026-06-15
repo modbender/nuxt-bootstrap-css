@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v1.2.0
+
+### 🚀 Enhancements
+
+- Widen compatibility to Nuxt 3 and Nuxt 4
+
+### 🩹 Fixes
+
+- Align the `bootstrapCSS` config key across module, types, and playground
+
+### 🏡 Chore
+
+- Upgrade Bootstrap to 5.3.8 and refresh all dependencies
+- Migrate to `@nuxt/module-builder` 1.0 (ESM-only output)
+- Migrate ESLint to flat config (`@nuxt/eslint-config` flat + ESLint 9)
+- Standardize on pnpm and add an OIDC trusted-publishing release workflow
+- Publish documentation at https://modbender.in/nuxt-bootstrap-css/
+
+### ❤️ Contributors
+
+- Modbender
+
 ## v1.1.2
 
 [compare changes](https://github.com/modbender/nuxt-bootstrap-css/compare/v1.1.1...v1.1.2)
